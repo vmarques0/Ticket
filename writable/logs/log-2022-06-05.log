@@ -1,0 +1,18 @@
+ERROR - 2022-06-05 17:11:49 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2022-06-05 17:11:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\ticket\app\Validation\UserRules.php(11): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(292): App\Validation\UserRules->validateUser('123', 'email, password', Array, NULL)
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', '123', Array, Array)
+#7 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#10 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

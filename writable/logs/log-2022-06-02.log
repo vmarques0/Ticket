@@ -1,0 +1,77 @@
+CRITICAL - 2022-06-02 19:55:10 --> required│min_length is not a valid rule.
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required\xE2\x94\x82min_...')
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jose@ticket.com', Array, Array)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-02 19:56:26 --> required│min_length is not a valid rule.
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required\xE2\x94\x82min_...')
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jose@ticket.com', Array, Array)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-02 19:56:57 --> required│min_length is not a valid rule.
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required\xE2\x94\x82min_...')
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jose@ticket.com', Array, Array)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-02 19:57:02 --> required│min_length is not a valid rule.
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required\xE2\x94\x82min_...')
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jose@ticket.com', Array, Array)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-02 19:57:11 --> required│max_length is not a valid rule.
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required\xE2\x94\x82max_...')
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jose@ticket.com', Array, Array)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-02 19:57:27 --> required│valid_email is not a valid rule.
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required\xE2\x94\x82vali...')
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jose@ticket.com', Array, Array)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-02 19:58:40 --> required│min_length is not a valid rule.
+#0 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required\xE2\x94\x82min_...')
+#1 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'jose@ticket.com', Array, Array)
+#2 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ticket\app\Controllers\UserController.php(27): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ticket\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ticket\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
